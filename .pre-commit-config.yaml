@@ -33,8 +33,5 @@ repos:
     rev: 3.4.0
     hooks:
       - id: commitizen
-      - id: commitizen-branch
-        stages:
-          - push
 default_language_version:
   python: python3.9
