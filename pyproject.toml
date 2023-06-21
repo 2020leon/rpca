@@ -25,9 +25,26 @@ classifiers = [
 dependencies = [
   "numpy",
 ]
+keywords = [
+  "pca",
+  "principal component analysis",
+  "rpca",
+  "robust pca",
+  "robust principal component analysis",
+]
+authors = [
+  {name = "2020leon", email = "leon2000.tw@gmail.com"},
+]
+maintainers = [
+  {name = "2020leon", email = "leon2000.tw@gmail.com"},
+]
+license = {file = "LICENSE"}
 
 [project.optional-dependencies]
 dev = [ "pre-commit", "yapf" ]
+
+[project.urls]
+Repository = "https://github.com/2020leon/rpca"
 
 [tool.setuptools]
 package-dir = {"rpca" = "rpca"}
