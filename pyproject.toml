@@ -7,7 +7,7 @@ name = "rpca"
 description = "Python implementation of robust principal component analysis"
 version = "1.0.0"
 readme = "README.md"
-requires-python = ">=3.10,<4.0"
+requires-python = ">=3.9,<4.0"
 classifiers = [
   "Development Status :: 5 - Production/Stable",
   "Intended Audience :: Developers",
@@ -15,6 +15,9 @@ classifiers = [
   "Intended Audience :: Financial and Insurance Industry",
   "Intended Audience :: Science/Research",
   "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Topic :: Multimedia :: Video",
