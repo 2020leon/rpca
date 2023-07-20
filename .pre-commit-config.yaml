@@ -15,22 +15,22 @@ repos:
     hooks:
       - id: reorder-python-imports
   - repo: 'https://github.com/asottile/pyupgrade'
-    rev: v3.7.0
+    rev: v3.9.0
     hooks:
       - id: pyupgrade
   - repo: 'https://github.com/pre-commit/mirrors-mypy'
-    rev: v1.4.0
+    rev: v1.4.1
     hooks:
       - id: mypy
         additional_dependencies:
           - types-termcolor
           - types-requests
   - repo: 'https://github.com/google/yapf'
-    rev: v.40.0
+    rev: v0.40.0
     hooks:
       - id: yapf
   - repo: 'https://github.com/commitizen-tools/commitizen'
-    rev: 3.4.0
+    rev: 3.5.3
     hooks:
       - id: commitizen
 default_language_version:
