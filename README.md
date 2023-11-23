@@ -1,6 +1,6 @@
 # RPCA
 
-[Robust principal component analysis] (robust PCA, RPCA) is a modification of  principal component analysis (PCA) which works well with respect to grossly corrupted observations. The package implement robust PCA in exact alternating Lagrangian multipliers (EALM) algorithm and inexact alternating Lagrangian multipliers (IALM) algorithm. The implementation refers [the paper][Lin] and [its MATLAB implementation][Sample code].
+[Robust principal component analysis] (robust PCA, RPCA) is a modification of  principal component analysis (PCA) which works well with respect to grossly corrupted observations. The package implements robust PCA in exact alternating Lagrangian multipliers (EALM) algorithm and inexact alternating Lagrangian multipliers (IALM) algorithm. The implementation refers [the paper][Lin] and [its MATLAB implementation][Sample code].
 
 ## Installation
 
