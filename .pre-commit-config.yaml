@@ -1,6 +1,6 @@
 repos:
   - repo: 'https://github.com/pre-commit/pre-commit-hooks'
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: check-ast
       - id: check-builtin-literals
@@ -11,26 +11,26 @@ repos:
       - id: end-of-file-fixer
       - id: trailing-whitespace
   - repo: https://github.com/asottile/reorder_python_imports
-    rev: v3.10.0
+    rev: v3.12.0
     hooks:
       - id: reorder-python-imports
   - repo: 'https://github.com/asottile/pyupgrade'
-    rev: v3.9.0
+    rev: v3.15.0
     hooks:
       - id: pyupgrade
   - repo: 'https://github.com/pre-commit/mirrors-mypy'
-    rev: v1.4.1
+    rev: v1.7.0
     hooks:
       - id: mypy
         additional_dependencies:
           - types-termcolor
           - types-requests
   - repo: 'https://github.com/google/yapf'
-    rev: v0.40.0
+    rev: v0.40.2
     hooks:
       - id: yapf
   - repo: 'https://github.com/commitizen-tools/commitizen'
-    rev: 3.5.3
+    rev: 3.12.0
     hooks:
       - id: commitizen
 default_language_version:
