@@ -1,3 +1,4 @@
+'''Inexact augmented Lagrange multiplier method for robust PCA.'''
 import numpy as __np
 
 
@@ -12,7 +13,7 @@ def fit(
   verbose=True,
 ):
   '''
-  Inexact augmented Lagrange multiplier method for robust PCA.
+  Fit the robust PCA model using inexact augmented Lagrange multiplier method.
 
   Parameters
   ----------
@@ -42,10 +43,21 @@ def fit(
 
   References
   ----------
-  The function implements Algorithm 5 of [1]_.
+  The function implements Algorithm 5 of the paper [1]_.
 
-  .. [1] Lin, Zhouchen, Minming Chen, and Yi Ma. "The Augmented Lagrange
-     Multiplier Method for Exact Recovery of Corrupted Low-Rank Matrices."
+  .. [1] Z. Lin, M. Chen, and Y. Ma, "The Augmented Lagrange Multiplier Method
+     for Exact Recovery of Corrupted Low-Rank Matrices," 2010. doi:
+     https://doi.org/10.48550/arXiv.1009.5055.
+
+  Examples
+  --------
+  >>> import numpy as np
+  >>>
+  >>> import rpca.ialm
+  >>>
+  >>> RNG = np.random.default_rng()
+  >>> D = RNG.random((20, 20))
+  >>> A, E = rpca.ialm.fit(D)  # doctest: +SKIP
   '''
   m, n = D.shape
   if lambda_ is None:
