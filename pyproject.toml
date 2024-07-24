@@ -1,5 +1,5 @@
 [build-system]
-requires = [ "setuptools" ]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -45,7 +45,7 @@ maintainers = [
 license = {file = "LICENSE"}
 
 [project.optional-dependencies]
-dev = [ "pre-commit", "yapf" ]
+dev = ["pre-commit", "yapf"]
 
 [project.urls]
 Repository = "https://github.com/2020leon/rpca"

@@ -113,7 +113,8 @@ def fit(
         sv = __np.min([svp + round(0.05 * n), n])
 
       temp_A = __np.dot(
-        __np.dot(U[:, :svp], __np.diag(S[:svp] - 1 / mu)), V[:svp, :]
+        __np.dot(U[:, :svp], __np.diag(S[:svp] - 1 / mu)),
+        V[:svp, :],
       )
 
       primal_converged = (

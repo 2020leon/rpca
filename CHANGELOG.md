@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+
+- Format files.
+
 ## [1.1.0] - 2023-11-23
 
 ### Added
@@ -25,5 +31,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Implement EALM and IALM algorithms.
 - Add license.
 
+[unreleased]: https://github.com/2020leon/rpca/compare/v1.1.0...HEAD
 [1.1.0]: https://github.com/2020leon/rpca/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/2020leon/rpca/releases/tag/v1.0.0
