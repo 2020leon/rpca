@@ -17,7 +17,7 @@ def fit(
 
   Parameters
   ----------
-  D : np.ndarray
+  D : np.ArrayLike
     `m` x `n` matrix of observations/data.
   lambda_ : float, default=1 / np.sqrt(m)
     Weight on sparse error term in the cost function.
@@ -59,6 +59,8 @@ def fit(
   >>> D = RNG.random((20, 20))
   >>> A, E = rpca.ialm.fit(D)  # doctest: +SKIP
   '''
+  D = __np.asarray(D)
+
   m, n = D.shape
   if lambda_ is None:
     lambda_ = 1 / __np.sqrt(m)
