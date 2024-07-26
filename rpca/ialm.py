@@ -82,7 +82,6 @@ def fit(
 
   iter_ = 0
   converged = False
-  stop_criterion = True
   sv = 10
 
   if verbose:
